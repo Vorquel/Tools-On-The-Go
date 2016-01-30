@@ -1,6 +1,6 @@
 {
     "parent": "block/torch",
     "textures": {
-        "torch": "blocks/torch_on"
+        "torch": "toolsonthego:blocks/torch_netherrack"
     }
 }

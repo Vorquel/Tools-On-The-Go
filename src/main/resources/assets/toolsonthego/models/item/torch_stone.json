@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "blocks/torch_on"
+        "layer0": "toolsonthego:blocks/torch_stone"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "blocks/torch_on"
+        "layer0": "toolsonthego:items/stick_netherrack"
     },
     "display": {
         "thirdperson": {

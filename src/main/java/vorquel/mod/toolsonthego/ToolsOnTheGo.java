@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import vorquel.mod.toolsonthego.helper.TotGBlocks;
 import vorquel.mod.toolsonthego.helper.TotGItems;
+import vorquel.mod.toolsonthego.helper.TotGRecipes;
 import vorquel.mod.toolsonthego.proxy.Proxy;
 
 @SuppressWarnings("unused")
@@ -27,7 +28,9 @@ public class ToolsOnTheGo
     }
     
     @EventHandler
-    public void init(FMLInitializationEvent event) {}
+    public void init(FMLInitializationEvent event) {
+        TotGRecipes.init();
+    }
     
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {}

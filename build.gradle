@@ -13,8 +13,8 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 def mcVersion = "1.8.9"
-version = "1.0.0.0"
-// version numbering: MC.MAJOR.MINOR.BUILD
+def modVersion = "1.0.0"
+version = mcVersion + "." + modVersion
 
 
 group = "vorquel.mod.toolsonthego" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
