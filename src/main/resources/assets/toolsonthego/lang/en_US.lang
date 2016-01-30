@@ -1,0 +1,11 @@
+
+#items
+
+item.ToolsOnTheGo.stickStone.name=Stone Stick
+item.ToolsOnTheGo.stickNetherrack.name=Netherrack Stick
+
+#blocks
+
+tile.ToolsOnTheGo.torchStone.name=Stone Torch
+tile.ToolsOnTheGo.torchNetherrack.name=Netherrack Torch
+

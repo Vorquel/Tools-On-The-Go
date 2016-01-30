@@ -1,7 +1,7 @@
 [
 {
-  "modid": "BucketTools",
-  "name": "Bucket Tools",
+  "modid": "ToolsOnTheGo",
+  "name": "Tools on the Go",
   "description": "A mod by Vorquel",
   "version": "${version}",
   "mcversion": "${mcVersion}",
