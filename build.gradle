@@ -1,0 +1,51 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            name = "forge"
+            url = "http://files.minecraftforge.net/maven"
+        }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+def mcVersion = "1.8.9"
+version = "1.0.0.0"
+// version numbering: MC.MAJOR.MINOR.BUILD
+
+
+group = "vorquel.mod.toolsonthego" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "ToolsOnTheGo"
+
+minecraft {
+    version = "1.8.9-11.15.1.1722"
+    mappings = "stable_20"
+    makeObfSourceJar = false
+	
+	replace("@VERSION@", version)
+	replace("@MC_VERSION@", mcVersion)
+}
+
+processResources {
+    // this will ensure that this task is redone when the versions change.
+    inputs.property "version", version
+    inputs.property "mcVersion", mcVersion
+	
+    // replace stuff in mcmod.info, nothing else
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+		
+        // replace version and mcversion
+        expand 'version':version, 'mcVersion':mcVersion
+    }
+	
+    // copy everything else, thats not the mcmod.info
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
+
+idea { module { inheritOutputDirs = true } }
