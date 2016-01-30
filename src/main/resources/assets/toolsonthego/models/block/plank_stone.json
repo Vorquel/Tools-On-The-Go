@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "toolsonthego:blocks/plank_stone"
+    }
+}

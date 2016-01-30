@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "toolsonthego:blocks/crafting_table_netherrack_front",
+        "down": "toolsonthego:blocks/plank_netherrack",
+        "up": "toolsonthego:blocks/crafting_table_netherrack_top",
+        "north": "toolsonthego:blocks/crafting_table_netherrack_front",
+        "east": "toolsonthego:blocks/crafting_table_netherrack_side",
+        "south": "toolsonthego:blocks/crafting_table_netherrack_side",
+        "west": "toolsonthego:blocks/crafting_table_netherrack_front"
+    }
+}

@@ -8,4 +8,8 @@ item.ToolsOnTheGo.stickNetherrack.name=Netherrack Stick
 
 tile.ToolsOnTheGo.torchStone.name=Stone Torch
 tile.ToolsOnTheGo.torchNetherrack.name=Netherrack Torch
+tile.ToolsOnTheGo.plankStone.name=Stone Planks
+tile.ToolsOnTheGo.plankNetherrack.name=Netherrack Planks
+tile.ToolsOnTheGo.workbenchStone.name=Stone Crafting Table
+tile.ToolsOnTheGo.workbenchNetherrack.name=Netherrack Crafting Table
 
