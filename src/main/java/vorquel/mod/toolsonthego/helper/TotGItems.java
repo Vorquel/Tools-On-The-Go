@@ -9,10 +9,10 @@ import static vorquel.mod.toolsonthego.ToolsOnTheGo.proxy;
 public class TotGItems {
     
     public static final Item stickStone = new Item().setUnlocalizedName(MOD_ID + ".stickStone").setCreativeTab(CreativeTabs.tabMaterials);
-    public static final Item stickNetherrack = new Item().setUnlocalizedName(MOD_ID + ".stickNetherrack").setCreativeTab(CreativeTabs.tabMaterials);
+    public static final Item stickNRack = new Item().setUnlocalizedName(MOD_ID + ".stickNetherrack").setCreativeTab(CreativeTabs.tabMaterials);
     
     public static void init() {
         proxy.registerItem(stickStone, "stick_stone");
-        proxy.registerItem(stickNetherrack, "stick_netherrack");
+        proxy.registerItem(stickNRack, "stick_netherrack");
     }
 }

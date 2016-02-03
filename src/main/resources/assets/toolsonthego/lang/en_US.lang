@@ -1,15 +1,22 @@
 
 #items
 
-item.ToolsOnTheGo.stickStone.name=Stone Stick
 item.ToolsOnTheGo.stickNetherrack.name=Netherrack Stick
+item.ToolsOnTheGo.stickStone.name=Stone Stick
 
 #blocks
 
-tile.ToolsOnTheGo.torchStone.name=Stone Torch
-tile.ToolsOnTheGo.torchNetherrack.name=Netherrack Torch
-tile.ToolsOnTheGo.plankStone.name=Stone Planks
+tile.ToolsOnTheGo.ladderNetherrack.name=Netherrack Ladder
+tile.ToolsOnTheGo.ladderStone.name=Stone Ladder
 tile.ToolsOnTheGo.plankNetherrack.name=Netherrack Planks
-tile.ToolsOnTheGo.workbenchStone.name=Stone Crafting Table
+tile.ToolsOnTheGo.plankStone.name=Stone Planks
+tile.ToolsOnTheGo.stairPlankNetherrack.name=Netherrack Plank Stairs
+tile.ToolsOnTheGo.stairPlankStone.name=Stone Plank Stairs
+tile.ToolsOnTheGo.torchNetherrack.name=Netherrack Torch
+tile.ToolsOnTheGo.torchStone.name=Stone Torch
 tile.ToolsOnTheGo.workbenchNetherrack.name=Netherrack Crafting Table
+tile.ToolsOnTheGo.workbenchStone.name=Stone Crafting Table
 
+#creative tab
+
+itemGroup.ToolsOnTheGo=Tools on the Go
