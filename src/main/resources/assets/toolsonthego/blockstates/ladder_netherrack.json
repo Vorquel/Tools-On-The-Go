@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "toolsonthego:ladder_netherrack" },
+        "facing=east":  { "model": "toolsonthego:ladder_netherrack", "y": 90 },
+        "facing=south": { "model": "toolsonthego:ladder_netherrack", "y": 180 },
+        "facing=west":  { "model": "toolsonthego:ladder_netherrack", "y": 270 }
+    }
+}

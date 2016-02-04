@@ -1,0 +1,7 @@
+{
+    "parent": "block/ladder",
+    "textures": {
+        "particle": "toolsonthego:blocks/ladder_stone",
+        "texture": "toolsonthego:blocks/ladder_stone"
+    }
+}

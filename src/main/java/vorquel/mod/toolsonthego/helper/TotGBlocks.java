@@ -33,7 +33,7 @@ public class TotGBlocks {
         proxy.registerBlock(craftingTableStone, "crafting_table_stone");
         proxy.registerBlock(craftingTableNRack, "crafting_table_netherrack");
         proxy.registerBlock(ladderStone, "ladder_stone");
-        proxy.registerBlock(ladderNRack, "latter_netherrack");
+        proxy.registerBlock(ladderNRack, "ladder_netherrack");
         proxy.registerBlock(stairPlankStone, "stair_plank_stone");
         proxy.registerBlock(stairPlankNRack, "stair_plank_netherrack");
     }

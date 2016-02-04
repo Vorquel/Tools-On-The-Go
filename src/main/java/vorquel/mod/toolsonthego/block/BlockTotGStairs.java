@@ -6,5 +6,6 @@ import net.minecraft.block.state.IBlockState;
 public class BlockTotGStairs extends BlockStairs {
     public BlockTotGStairs(IBlockState modelState) {
         super(modelState);
+        useNeighborBrightness = true;
     }
 }

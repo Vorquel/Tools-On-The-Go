@@ -16,13 +16,15 @@ public class TotGRecipes {
         // stick recipes
         GameRegistry.addRecipe(new ItemStack(stickStone, 2), "x", "x", 'x', cobblestone);
         GameRegistry.addRecipe(new ItemStack(stickStone, 4), "x", "x", 'x', stone);
+        GameRegistry.addRecipe(new ItemStack(stickStone, 4), "x", "x", 'x', plankStone);
         GameRegistry.addRecipe(new ItemStack(stickNRack, 2), "x", "x", 'x', netherrack);
+        GameRegistry.addRecipe(new ItemStack(stickNRack, 4), "x", "x", 'x', plankNRack);
         // torch recipes
         GameRegistry.addRecipe(new ItemStack(torchStone, 4), "x", "/", 'x', coal, '/', stickStone);
         GameRegistry.addRecipe(new ItemStack(torchNRack, 4), "x", "/", 'x', glowstone_dust, '/', stickNRack);
         // plank recipes
-        GameRegistry.addRecipe(new ItemStack(plankStone), "//", "//", '/', stickStone);
-        GameRegistry.addRecipe(new ItemStack(plankNRack), "//", "//", '/', stickNRack);
+        GameRegistry.addRecipe(new ItemStack(plankStone, 2), "//", "//", '/', stickStone);
+        GameRegistry.addRecipe(new ItemStack(plankNRack, 2), "//", "//", '/', stickNRack);
         // crafting table recipes
         GameRegistry.addRecipe(new ItemStack(craftingTableStone), "xx", "xx", 'x', plankStone);
         GameRegistry.addRecipe(new ItemStack(craftingTableNRack), "xx", "xx", 'x', plankNRack);

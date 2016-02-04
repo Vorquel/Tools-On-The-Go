@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "toolsonthego:blocks/plank_stone",
+        "top": "toolsonthego:blocks/plank_stone",
+        "side": "toolsonthego:blocks/plank_stone"
+    }
+}
