@@ -1,10 +1,39 @@
 
+###
 #items
+###
 
+#food
+
+item.ToolsOnTheGo.stewMushroom.name=Mushroom Stew
+item.ToolsOnTheGo.stewRabbit.name=Rabbit Stew
+
+#materials
+
+item.ToolsOnTheGo.bowlNetherrack.name=Netherrack Bowl
+item.ToolsOnTheGo.bowlStone.name=Stone Bowl
 item.ToolsOnTheGo.stickNetherrack.name=Netherrack Stick
 item.ToolsOnTheGo.stickStone.name=Stone Stick
 
+#tools
+
+item.ToolsOnTheGo.axNetherrack.name=Netherrack Axe
+item.ToolsOnTheGo.axStone.name=Stone Axe
+item.ToolsOnTheGo.hoeNetherrack.name=Netherrack Hoe
+item.ToolsOnTheGo.hoeStone.name=Stone Hoe
+item.ToolsOnTheGo.pickNetherrack.name=Netherrack Pickaxe
+item.ToolsOnTheGo.pickStone.name=Stone Pickaxe
+item.ToolsOnTheGo.shovelNetherrack.name=Netherrack Shovel
+item.ToolsOnTheGo.shovelStone.name=Stone Shovel
+
+#weapons
+
+item.ToolsOnTheGo.swordNetherrack.name=Netherrack Sword
+item.ToolsOnTheGo.swordStone.name=Stone Sword
+
+###
 #blocks
+###
 
 tile.ToolsOnTheGo.ladderNetherrack.name=Netherrack Ladder
 tile.ToolsOnTheGo.ladderStone.name=Stone Ladder
@@ -17,6 +46,8 @@ tile.ToolsOnTheGo.torchStone.name=Stone Torch
 tile.ToolsOnTheGo.workbenchNetherrack.name=Netherrack Crafting Table
 tile.ToolsOnTheGo.workbenchStone.name=Stone Crafting Table
 
+###
 #creative tab
+###
 
 itemGroup.ToolsOnTheGo=Tools on the Go
