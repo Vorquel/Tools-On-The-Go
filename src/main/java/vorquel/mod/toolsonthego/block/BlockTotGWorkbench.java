@@ -2,6 +2,7 @@ package vorquel.mod.toolsonthego.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockWorkbench;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
@@ -9,9 +10,11 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.ContainerWorkbench;
+import net.minecraft.item.ItemStack;
 import net.minecraft.stats.StatList;
-import net.minecraft.util.BlockPos;
 import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class BlockTotGWorkbench extends Block {
@@ -19,20 +22,17 @@ public class BlockTotGWorkbench extends Block {
     public BlockTotGWorkbench() {
         super(Material.rock);
         setCreativeTab(CreativeTabs.tabDecorations);
+        setSoundType(SoundType.STONE);
     }
     
     @Override
-    public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumFacing side, float hitX, float hitY, float hitZ) {
-        if (worldIn.isRemote)
-        {
-            return true;
-        }
-        else
+    public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, ItemStack heldItem, EnumFacing side, float hitX, float hitY, float hitZ) {
+        if(!worldIn.isRemote)
         {
             playerIn.displayGui(new InterfaceCraftingTable(worldIn, pos));
-            playerIn.triggerAchievement(StatList.field_181742_Z);
-            return true;
+            playerIn.addStat(StatList.craftingTableInteraction);
         }
+        return true;
     }
     
     private class InterfaceCraftingTable extends BlockWorkbench.InterfaceCraftingTable {

@@ -12,7 +12,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-def mcVersion = "1.8.9"
+def mcVersion = "1.9.0"
 def modVersion = "1.2.1"
 version = mcVersion + "." + modVersion
 
@@ -21,8 +21,8 @@ group = "vorquel.mod.toolsonthego" // http://maven.apache.org/guides/mini/guide-
 archivesBaseName = "ToolsOnTheGo"
 
 minecraft {
-    version = "1.8.9-11.15.1.1722"
-    mappings = "stable_20"
+    version = "1.9-12.16.0.1819-1.9"
+    mappings = "snapshot_20160401"
     runDir = "run"
     makeObfSourceJar = false
 	

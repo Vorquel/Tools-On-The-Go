@@ -1,6 +1,6 @@
 package vorquel.mod.toolsonthego.item;
 
-import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemSoup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -15,8 +15,8 @@ public class ItemTotGSoup extends ItemSoup {
     }
     
     @Override
-    public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityPlayer playerIn) {
-        super.onItemUseFinish(stack, worldIn, playerIn);
+    public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase entityLiving) {
+        super.onItemUseFinish(stack, worldIn, entityLiving);
         return bowl.copy();
     }
 }
